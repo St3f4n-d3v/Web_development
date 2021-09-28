@@ -9,22 +9,28 @@
 
 <body>
     <header>
-
+        <h1>Contact formulier</h1>
     </header>
 
     <main>
-        <div>
-            <input type="text" value="naam">
-            <hr>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam: <input type="text" name="Naam" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
 
-            <input type="text" value="email">
-            <hr>
-            <textarea>
+            <p>
+                <label>Bericht: <textarea name="bericht"></textarea></label>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
 
-</textarea>
-            <hr>
-            <input type="submit">
-        </div>
+
+
+        </form>
     </main>
 
     <footer>
