@@ -1,0 +1,173 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+.Container {
+    max-width: fit-content;
+    border: 1px solid #000;
+    margin-top:30px; 
+    position: relative;
+    background-image:url('Background_1.jpg') 
+
+}
+
+
+.nav li{
+    
+    display: flex; 
+    flex-wrap: nowrap;
+    align-items: center; 
+    padding: 20px;
+    margin: 10px 10px 10px 40px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button1 {
+    
+    display: flex; 
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: rgb(161, 5, 5); 
+    color: black; 
+    border: 2px solid #000000;
+    
+}
+  
+.button1:hover {
+    background-color: #ffffff;
+    color: rgb(197, 10, 10);
+}
+  
+.button2 {
+    
+    display: flex; 
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: rgb(161, 5, 5); 
+    color: black; 
+    border: 2px solid #000000;
+    
+}
+  
+.button2:hover {
+    background-color: #ffffff;
+    color: rgb(197, 10, 10);
+}
+
+.nav{
+    display: flex;
+    align-content: stretch;
+}
+
+.clr{
+    clear: both;
+}
+
+#header{
+     
+    background-color: rgb(31, 1, 1);
+    border-right:5px red solid; 
+    border-left:5px red solid;
+    border-style:groove;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#header img{
+    float: right;
+}
+#header h1{
+    text-align: center;
+    text-decoration-line: underline;color: black;
+    color: red;
+    font-style: italic;
+    font-size: 500%;    
+}    
+
+.cdlc {
+    align-content: center;
+    margin:30px;
+    background-color: rgb(0, 0, 0) ;
+    border:1px solid rgb(129, 1, 1)
+    
+}
+.cdlc img{
+    align-content: center;
+    margin: 10px 10px 10px 50px;
+}
+.cdlc {
+    text-align: center;
+}
+
+.cofn {
+    align-content: center;
+    margin:30px;
+    background-color: rgb(0, 0, 0) ;
+    border:1px solid rgb(129, 1, 1)
+}
+
+
+.cofn{
+    text-align: center;
+}
+
+.char {
+    align-content: center;
+    margin:30px;
+    background-color: rgb(0, 0, 0) ;
+    border:1px solid rgb(129, 1, 1)
+    
+}
+.char img{
+    align-content: center;
+    margin: 10px 10px 10px 50px;
+}
+.char {
+    text-align: center;
+}
+
+
+.footer{
+    
+    
+    display: inline-block; 
+    align-items: center; 
+    border:1px solid rgb(129, 1, 1);
+    padding: 30px;
+    margin: 10px 20px 10px 80px;
+    text-decoration-line: initial;
+    font-size: 16px;
+    background-color: rgb(31, 1, 1);
+    
+    cursor: pointer;
+}
+
+.contacttab{
+    
+    align-content: center;
+    margin:30px;
+    background-color: rgb(209, 205, 205) ;
+    border:1px solid rgb(129, 1, 1)
+
+}
+@media screen and (max-width:700px){
+    body{
+
+        background-color: rgb(0, 0, 0);
+    }
+    p {
+        font-size: 0.75rem;
+        line-height: 1.5;
+        color:rgb(0, 0, 0)
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 1.5;
+        color:rgb(160, 7, 7)}
+
+}
+
+
