@@ -1,0 +1,28 @@
+console.log("Hello Winc Acedemy");
+    let name = 'Stefan';
+    console.log(name)
+   let firstName = undefined;
+   let age = "dertig";
+   let selecetedColor = 'null';
+   let interestRate = 0.3;
+   interestRate = 1;
+   console.log (interestRate);
+   let isAproved = true;
+   let y = 4;
+   let x = y + y;
+   console.log(x);
+   let a = 4+4;
+   console.log(a);
+let r = "4"+"4";
+console.log(r);
+let b = y-y;
+console.log(b);
+let c = 6;
+let u = 99;
+let o = 35;
+let s = o*u;
+console.log(s);
+let m = s/c;
+console.log(m);
+let k = u%c;
+console.log(k);
