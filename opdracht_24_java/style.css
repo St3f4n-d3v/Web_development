@@ -1,0 +1,15 @@
+
+#mybutton {
+    width: 150px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+}
+
+.blue-background {
+    background-color: blue;
+    }
+    
+.red-background {
+    background-color: red;
+    }
