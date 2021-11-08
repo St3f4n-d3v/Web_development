@@ -1,0 +1,69 @@
+.li-default {
+    background-color: #ffffff;
+    animation: box 2s ease-out 1ms normal;
+    
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    cursor: grab;
+}
+
+#menuImage {
+    width: 100px;
+    height: 100px;
+    padding-left: 25px;
+}
+
+.btn-toggle-nav {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    background-image: url("menu.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    cursor: crosshair;   
+}
+
+.nav-sidebar {
+    width: 70px;
+    
+}
+
+.nav-sidebar ul {
+    visibility: hidden;
+    display: inline-block;
+    flex-flow: column nowrap;   
+    width: 200px;
+    align-content: center;    
+    justify-content: space-between;      
+    padding: 30px 15px ;
+    color: rgb(41, 35, 28);
+    font-weight: bolder;
+    position: relative;
+    animation: box 2s ease-out 1ms normal; 
+}
+
+.nav-sidebar li {
+    border: 1px solid black;
+    width: 150px;
+    margin: 5px;
+    padding: 10px;
+    cursor: grabbing;
+}
+
+.nav-sidebar ul li:hover{
+    background-color: #ddd;
+}
+
+@keyframes box {
+    from {
+        transform: translate(0, 200px);
+    }
+    to {
+        transform: translate(0px, 0px)
+    }
+}

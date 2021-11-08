@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KleurenToggle</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+
+    <main class="nav-sidebar">
+        <ul>
+            <li class="li-default" id="li-home">Home</li>
+            <li class="li-default" id="li-red">Red</li>
+            <li class="li-default" id="li-magenta">Magenta</li>
+            <li class="li-default" id="li-purple">Purple</li>
+            <li class="li-default" id="li-blue">Blue</li>
+        </ul>
+    </main>
+    <aside>
+
+        <div id="menu" onclick="changeColor()">
+            <div class="home">
+                <input type="radio" id="ra-home" name="color">Home
+            </div>
+            <div class="red">
+                <input type="radio" id="ra-red" name="color">Red
+            </div>
+            <div class="magenta">
+                <input type="radio" id="ra-magenta" name="color">Magenta
+            </div>
+            <div class="purple">
+                <input type="radio" id="ra-purple" name="color">Purple
+            </div>
+            <div class="blue">
+                <input type="radio" id="ra-blue" name="color">Blue
+            </div>
+        </div>
+
+
+    </aside>
+</body>
+
+</html>
